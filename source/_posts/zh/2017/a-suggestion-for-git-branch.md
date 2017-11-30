@@ -2,7 +2,8 @@
 title: 分支管理最佳实践与团队项目版本管理方案
 date: 2017-04-26 14:38
 categories: code
-tags: Git branch
+tags:
+- git
 ---
 
 ## Git 分支管理最佳实践

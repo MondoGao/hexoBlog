@@ -1,7 +1,11 @@
 ---
 title: ES2015 标准 Promise 深入理解：实现
 date: 2017-04-28 21:40
-tags: 前端
+categories: fe
+tags:
+- es6
+- es2015
+- promise
 ---
 
 ## 前言
