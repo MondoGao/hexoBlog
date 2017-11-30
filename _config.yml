@@ -1,8 +1,9 @@
 # Site
 title: 麦冬
-subtitle: 前端、杂谈、设计、艺术。
-description: 
-author: Mondo Gao, mondogao@gmail.com
+subtitle: A horny front ent developer
+description: 前端、杂谈、设计、艺术。
+author: Mondo Gao
+email: mondogao@gmail.com
 language: 
 - zh
 - en
@@ -15,7 +16,8 @@ instagram: mondogao
 github: mondogao
 facebook: MondoGao
 
-# Theme-anatole
+# Theme
+avatar: /images/avatar.jpeg
 valine: 
   enable: false
 
