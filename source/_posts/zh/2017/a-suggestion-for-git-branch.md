@@ -16,7 +16,7 @@ tags: Git branch
 - 因为在同一分支上进行开发，协作人员之间必须有良好的交流
 - 省去另开分支的时间，不用频繁切换分支
 
-![]({{site.url}}/assets/2017/git-branch-tbd.png)
+{% asset_img git-branch-tbd.png %}
 
 ### Github Flow
 
@@ -27,8 +27,7 @@ tags: Git branch
 - Release 在 master 上通过 tag 进行标记
 - 对自动化测试、持续集成等相关基础设施要求较高，新分支的测试和部署人工操作较为繁杂
 
-![]({{site.url}}/assets/2017/git-branch-github-flow.png)
-
+{% asset_img git-branch-github-flow.png %}
 
 ### Git Flow
 - 同样以 master 作为部署分支，其上所有 commit 都应围绕版本而生
@@ -48,7 +47,7 @@ tags: Git branch
 | release | release/* | develop | develop 和 master | 一次新版本的发布           |
 | hotfix  | hotfix/*  | master  | develop 和 master | 生产环境中发现的紧急 bug 的修复 |
 
-![]({{site.url}}/assets/2017/git-branch-git-flow.png)
+{% asset_img git-branch-git-flow.png %}
 
 ## 团队项目版本管理方案
 
