@@ -49,7 +49,7 @@ mixin postList()
     - page.posts.each(function (item) {
       - var itemYear = date(item.date, 'YYYY') - 0;
       - change = year !== itemYear;
-      - year = change ? itemYear :     ;
+      - year = change ? itemYear : year;
       if change
         if firstYear
           | <div class="listing-title">

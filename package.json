@@ -1,11 +1,15 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "MondoBlog",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "pre:css": "postcss -o ./themes/anatole/source/css/style.css ./themes/anatole/source/css/*.pcss"
+  },
   "hexo": {
     "version": "3.4.2"
   },
   "dependencies": {
+    "autoprefixer": "^7.1.6",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
@@ -14,6 +18,9 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-render-pug": "^1.2.0",
     "hexo-renderer-marked": "^0.3.0",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "postcss": "^6.0.14",
+    "postcss-cli": "^4.1.1",
+    "precss": "^2.0.0"
   }
 }
