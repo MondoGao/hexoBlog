@@ -20,6 +20,7 @@ facebook: MondoGao
 avatar: /images/avatar.jpeg
 valine: 
   enable: false
+disqus: mondogao
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
